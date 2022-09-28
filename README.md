@@ -12,7 +12,7 @@ Tudo guiado pelo Rocketseat em NLW sport.
 
 Projeto construído do evento Next Level do Rocketseat.
 
-[Clique aqui para acessa](https://cristianenazareth.github.io/Curso-sobre-um-projeto-da-web-guiado-pelo-rocketseat-NLW/)
+🔗 [Clique aqui para acessa](https://cristianenazareth.github.io/Curso-sobre-um-projeto-da-web-guiado-pelo-rocketseat-NLW/)
 
 
 ## 🧑‍💻 Tecnologias
