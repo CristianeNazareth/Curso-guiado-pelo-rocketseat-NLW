@@ -110,9 +110,14 @@ main {
     
 }
 
+
+.section .channel-list li:hover {
+    transform: scale(1.1); 
+}
+
 .channel-list img {
-    border-radius: 50%;
-    width: 70px;
+    width: 90px;
+    border-radius: 57%;
     border: 1px solid #443E54;
 }
 
