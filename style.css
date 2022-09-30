@@ -10,11 +10,13 @@ ul {
 }
 
 body {
-    background-image: url('./assets/Fundo.jpg');
+    background-image: url('./assets/imgFundo.jpeg');
+    background-color: #141414;
     background-position: top center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    color: #121214;
+    /* color: #121214; */
+    color: #141414;
     
 }
 
@@ -73,11 +75,14 @@ main {
 
 .section h2 {
     letter-spacing: -0.47px;
+    /* color: #971B2C; */
+    /* color: #A1A1AA; */
 }
 
 .section p {
     letter-spacing: -0.18px;
     color: #A1A1AA;
+    /* color: #971B2C */
 }
 
 .section div {
@@ -110,9 +115,8 @@ main {
     
 }
 
-
 .section .channel-list li:hover {
-    transform: scale(1.1); 
+    transform: scale(1.1);
 }
 
 .channel-list img {
@@ -148,26 +152,26 @@ main {
 
 
 .section:nth-child(1) {
-    animation-delay: 0;
+    animation-delay: .2s;
 }
 
 .section:nth-child(2) {
-    animation-delay: .4s;
+    animation-delay: .6s;
 }
 
 .section:nth-child(3) {
-    animation-delay: .8s;
+    animation-delay: .9s;
 }
 
 
 @keyframes fromBottom {
     from {
         opacity: 0;
-        transform: translateY(30px);
+        transform: translateX(-30px);
     }
 
     de {
         opacity: 1;
-        transform: translateY(0);
+        transform: translateX(0);
     }
 }
