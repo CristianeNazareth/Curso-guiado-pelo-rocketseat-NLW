@@ -17,7 +17,7 @@ body {
     background-repeat: no-repeat;
     /* color: #121214; */
     color: #141414;
-    
+    background-attachment: fixed;
 }
 
 body * {
@@ -64,6 +64,7 @@ main {
     width: 90%;
     margin: 32px auto;
     
+    /* background-attachment: fixed; */
 }
 
 .section {
@@ -175,3 +176,14 @@ main {
         transform: translateX(0);
     }
 }
+
+.icon:nth-child(1):hover {
+    background-color: rgba(138, 30, 138, 0.507);
+}
+.icon:nth-child(2):hover {
+    background-color: rgba(60, 60, 192, 0.747);
+}
+.icon:nth-child(3):hover {
+    background-color: rgb(182, 143, 148)
+}
+
