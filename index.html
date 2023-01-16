@@ -16,7 +16,7 @@
   </head>
   <body>
     <header class="header">
-      <div class="div">
+      <div class="header-div">
         <img
           class="imgLogo"
           src="https://github.com/CristianeNazareth.png"
@@ -27,7 +27,7 @@
 
     <main>
       <section class="section">
-        <div>
+        <div class="game">
           <h2>Meus jogos</h2>
           <p>Os games que mais curto jogar!</p>
           <ul class="games-list">
@@ -75,44 +75,54 @@
                 />
               </a>
             </li>
-
           </ul>
         </div>
       </section>
 
       <section class="section">
-        <div>
+        <div class="channel">
           <h2>Canais e Inscrições do youtube</h2>
           <p>Lista de canais e playlists que não perco!</p>
           <ul class="channel-list">
             <li>
-              <a target="_blank" href="https://www.youtube.com/c/Sa%C3%BAdedaMente">
+              <a
+                target="_blank"
+                href="https://www.youtube.com/c/Sa%C3%BAdedaMente"
+              >
                 <img
-                  src="https://yt3.ggpht.com/tIv6_rCJpbXCMh6gnpwpzWaZjgSO-nlaazEmpf28oU6SxB_8Q_r0JhkYmLi9kgfoFfT6ZN_VbQ=s88-c-k-c0x00ffffff-no-rj"
+                  src="assets/channel-saudment.jpg"
                   alt="imagem do canal Saúde da Mente."
                 />
               </a>
             </li>
             <li>
-              <a target="_blank" href="https://www.youtube.com/c/CursoemV%C3%ADdeo/featured">
+              <a
+                target="_blank"
+                href="https://www.youtube.com/c/CursoemV%C3%ADdeo/featured"
+              >
                 <img
-                  src="https://yt3.ggpht.com/ytc/AMLnZu9SFJaGUnZnhHBfmnrSQ_5IZObGBhia1VSMVdpTEg=s88-c-k-c0x00ffffff-no-rj"
+                  src="assets/channel-curs-video.jpg"
                   alt="imagem do canal Curso em Video."
+              /></a>
+            </li>
+            <li>
+              <a 
+                target="_blank"
+                href="https://www.youtube.com/c/grancursostv/featured"
+              >
+                <img
+                  src="assets/channel-estrateg.jpg"
+                  alt="imagem do canal Estratégia Concursos Online"
                 />
               </a>
             </li>
             <li>
-              <a target="_blank" href="https://www.youtube.com/c/grancursostv/featured">
+              <a
+                target="_blank"
+                href="https://www.youtube.com/c/TVJusti%C3%A7aOficial"
+              >
                 <img
-                  src="https://yt3.ggpht.com/hcHMQXxK09s19_lWB4ZxtlmfCfaEYmrcs2PIMhlHVQcBO5mi8IliZ9t4cNthw4HxOdGj9l8zHg=s88-c-k-c0x00ffffff-no-rj"
-                  alt="imagem do canal Gran Cursos Online."
-                />
-              </a>
-            </li>
-            <li>
-              <a target="_blank" href="https://www.youtube.com/c/TVJusti%C3%A7aOficial">
-                <img
-                  src="https://yt3.ggpht.com/vUPcS4K8rXL95x9VgsI0rMGtwBf3LhX8QtIc469EzM265trzif8NfNfDiH24Fpl_feRUOPzT37k=s88-c-k-c0x00ffffff-no-rj"
+                  src="assets/channel-tvjus.jpg"
                   alt="imagem do canal TV Justiça Oficial."
                 />
               </a>
@@ -122,7 +132,7 @@
       </section>
 
       <section class="section">
-        <div>
+        <div class="social">
           <h2>Minhas redes</h2>
           <p>Se conecte comigo agora mesmo!</p>
           <ul class="social-list">
@@ -180,16 +190,24 @@
                 </svg> -->
                 <abbr title="facebook">
                   <?xml version="1.0" standalone="no"?>
-                              <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
-                              "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-                              <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-                              width="34" height="34" viewBox="0 0 640.000000 640.000000"
-                              preserveAspectRatio="xMidYMid meet">
-                  
-                              <g transform="translate(0.000000,640.000000) scale(0.100000,-0.100000)"
-                              fill="#0000ff" stroke="none" stroke-linecap="round"
-                              stroke-linejoin="round">
-                              <path d="M1630 5571 c-255 -54 -472 -204 -624 -431 -61 -91 -102 -182 -135
+                  <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+                  <svg
+                    version="1.0"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="34"
+                    height="34"
+                    viewBox="0 0 640.000000 640.000000"
+                    preserveAspectRatio="xMidYMid meet"
+                  >
+                    <g
+                      transform="translate(0.000000,640.000000) scale(0.100000,-0.100000)"
+                      fill="#0000ff"
+                      stroke="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M1630 5571 c-255 -54 -472 -204 -624 -431 -61 -91 -102 -182 -135
                               -300 l-26 -95 -3 -1409 c-2 -1225 0 -1421 13 -1498 74 -433 416 -770 840 -828
                               56 -8 545 -10 1635 -8 l1555 3 92 27 c101 30 240 96 318 152 70 51 179 160
                               231 232 59 83 129 233 157 336 l22 83 0 1470 0 1470 -28 90 c-111 355 -355
@@ -198,9 +216,10 @@
                               21 -98 34 -202 50 -330 50 -183 0 -278 -32 -366 -122 -89 -92 -146 -249 -163
                               -451 l-5 -68 219 0 220 0 0 -240 0 -240 -220 0 -220 0 0 -1020 0 -1020 -295 0
                               -295 0 0 1020 0 1020 -240 0 -240 0 0 240 0 240 245 0 245 0 0 61 c0 34 7 108
-                              16 166 57 388 237 653 539 794 105 49 277 94 411 108 109 11 303 6 404 -10z"/>
-                              </g>
-                              </svg>
+                              16 166 57 388 237 653 539 794 105 49 277 94 411 108 109 11 303 6 404 -10z"
+                      />
+                    </g>
+                  </svg>
                 </abbr>
               </a>
             </li>
