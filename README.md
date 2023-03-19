@@ -12,7 +12,7 @@ Tudo guiado pelo Rocketseat em NLW sport com o professor @ maykbrito.
 
 Projeto construído do evento Next Level do Rocketseat.
 
-🔗 [Clique aqui para acessar](https://cristianenazareth.github.io/Curso-sobre-um-projeto-da-web-guiado-pelo-rocketseat-NLW/)
+🔗 [Clique aqui para acessar](https://cristianenazareth.github.io/projeto__www_frontend-mentor_news_page)
 
 
 ## 🧑‍💻 Tecnologias
